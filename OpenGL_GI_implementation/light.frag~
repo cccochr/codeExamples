@@ -1,0 +1,10 @@
+// teapot.frag
+varying vec3 ec_vnormal, ec_vposition;
+uniform sampler2D mytexture;
+
+void main()
+{
+	gl_FragColor = gl_FrontMaterial.diffuse; 
+}
+
+
